@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color:powderblue;
+}
+
+/*
+
+.= class
+#=  id
+:= pseudo class
+::= pseudo element
+> = children
+
+*/
+
+h1#principal {
+    text-align: center;
+    
+}
+
+h1{
+    color: rgb(9, 83, 94);
+    background-color: rgb(154, 206, 206);
+    text-align:right;
+}
+
+h2{
+    color: rgb(253, 253, 253);
+    background-color: rgb(157, 197, 197);
+    
+}
+
+.basico{
+    color: rgb(195, 101, 101);
+}
+
+.intermediario{
+    color: rgb(61, 110, 61);
+}
+
+.avancado {
+    color: rgb(56, 56, 148);
+}

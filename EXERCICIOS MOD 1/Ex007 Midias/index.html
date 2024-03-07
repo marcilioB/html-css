@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com mídias</title>
+    
+</head>
+<body>
+    <h1>Imagens e resoluções</h1>
+   
+        <li>
+            Tente modificar o tamanho da página para alterar a resolução da imagem a seguir
+        </li>
+      
+        <ul>
+            <p><strong>Hess Corporation:</strong></p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+                <source media="(max-width:1050px)" srcset="imagens/imagem-m.png" type="image/png">
+                <img src="Imagens/imagem-g.png" alt="imagem flexivel">
+            </picture>
+        </ul>
+    <h1>Áudios</h1>
+    <ul>
+           <li>
+                Pamos reproduzir áudios usando a tag "audio"
+          </li>
+           <li>
+               Para reproduzir rapidamente uso o paramentro "control auto play"
+           </li>
+           
+    <audio
+        src="midia/tiringa-como-e-a-historia-homeeee.mp3" autoplay controls>
+    </audio>
+    <li>
+        Para reproduzir compatibilidade de mídia use o paramentro "type" em ordem lógica de tamanho
+    </li>
+    Infelizmente seu navegador não é compativel, <a href="midia/tiringa-como-e-a-historia-homeeee.mp3">Click aqui para baixar o arquivo</a>
+
+    <audio preload="metadata" autoplay controls loop
+    src="midia/organic-guitar-house-dyalla.mp3">
+</audio>
+<h1>Videos</h1>
+<li>Este vídeo esta hospedado no meu próprio servidor</li>
+<video width="500" poster="Imagens/imagem-g.png"  muted autoplay>
+    <source src="midia/Tecnologia.mp4" type="video/mp4">
+    <source src="midia/Tecnologia.mkv" type="video/mkv">
+    <source src="midia/Tecnologia.webm" type="video/webm">
+    <source src="midia/Tecnologia.ogv" type=" video/ogv">
+    <p>Seu navegador não tem compatibilidade</p>
+</video>
+<h1>Videos Externos</h1>
+<li>Vimeo</li>
+
+<iframe src="https://player.vimeo.com/video/783455773?h=65e20fad6f&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="muted autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+<li>Youtube</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yVMXtzID4Eg?si=QikgTakVMWfPBWv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

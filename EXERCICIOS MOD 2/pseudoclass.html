@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+
+    <style> 
+        body{
+            background-color: #F0847D;
+            height: 100%
+        }
+
+        div > p {
+            
+            display: none;
+            color: rgb(127, 255, 138);
+            background-color: black;
+            
+        }
+        div:hover > p {
+            display: block;
+
+        }
+
+div{
+    background-color:#7DB4F0;
+    display:inline-block;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+background-color: #cf4f4f;
+}
+
+    </style>
+
+</head>
+
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02 
+        <p>ACERTOU MIZERAVI</p>
+    </div>
+    <div id="d3">03</div>
+    
+</body>
+</html>
